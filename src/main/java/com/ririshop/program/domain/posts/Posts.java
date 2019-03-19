@@ -1,5 +1,6 @@
 package com.ririshop.program.domain.posts;
 
+import com.ririshop.program.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -13,7 +14,7 @@ import javax.persistence.Id;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
 @Getter
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id
     @GeneratedValue
     private Long id;
