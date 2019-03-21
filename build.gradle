@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '1.5.10.RELEASE'
+    id 'org.springframework.boot' version '1.5.9.RELEASE'
     id 'java'
 }
 
@@ -19,6 +19,9 @@ configurations {
 repositories {
     mavenCentral()
 }
+
+//Spring Boot Overriding
+ext['hibernate.version'] = '5.2.11.Final'
 
 dependencies {
     compile 'pl.allegro.tech.boot:handlebars-spring-boot-starter:0.2.15'
