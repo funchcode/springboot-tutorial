@@ -3,7 +3,6 @@ package com.ririshop.program.service;
 import com.ririshop.program.domain.posts.Posts;
 import com.ririshop.program.domain.posts.PostsRepository;
 import com.ririshop.program.dto.PostsSaveRequestDto;
-import lombok.AllArgsConstructor;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -11,8 +10,6 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
